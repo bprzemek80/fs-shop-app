@@ -1,0 +1,7 @@
+$min-app-size: 768px;
+
+.card-container {
+  max-width: calc(100vh / 3 - 80px);
+  width: calc(100vh / 3 - 80px);
+  height: 430px;
+}

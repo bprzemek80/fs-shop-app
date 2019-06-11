@@ -1,0 +1,24 @@
+.menu-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightsteelblue;
+
+  > div {
+    align-self: center;
+
+    button {
+      margin: 0 5px 0 5px;
+    }
+  }
+
+  .header-section {
+    display: flex;
+
+    > fs-header-user-info {
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}

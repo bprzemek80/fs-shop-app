@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxyConfig=proxy.conf.json",
+    "start": "ng serve --proxyConfig=proxy.conf.json --port 8080",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "mock-service": "json-server mock/db.json"
+    "mock-service": "json-server mock/db.json --routes mock/routes.json"
   },
   "private": true,
   "dependencies": {
@@ -28,13 +28,14 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.10.0",
+    "@angular-devkit/build-angular": "^0.800.2",
     "@angular/cli": "^8.0.2",
     "@angular/compiler-cli": "^8.0.0",
     "@angular/language-service": "^8.0.0",
-    "@types/node": "~8.9.4",
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -46,6 +47,6 @@
     "protractor": "~5.4.0",
     "ts-node": "^8.2.0",
     "tslint": "^5.17.0",
-    "typescript": "^3.5.1"
+    "typescript": "^3.4.5"
   }
 }

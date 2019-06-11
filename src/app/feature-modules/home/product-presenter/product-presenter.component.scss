@@ -1,0 +1,16 @@
+.product-presenter-container {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 150px);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media (max-width: 1020px) {
+  .product-presenter-container {
+    display: grid;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+}

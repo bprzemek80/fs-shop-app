@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  margin: 0 10px 0 10px;
+
+  > i {
+    margin: 0 10px 0 10px;
+  }
+
+  .user-name-section {
+    > span {
+      cursor: default;
+      margin: 0 10px 0 5px;
+    }
+  }
+}

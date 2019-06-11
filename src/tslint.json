@@ -5,13 +5,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "fs",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "fs",
       "kebab-case"
     ],
     "variable-name": [true,
